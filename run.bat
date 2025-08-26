@@ -23,3 +23,9 @@ echo ---------------------------------------------------
 java -cp output PolymorphisimDriver
 echo ---------------------------------------------------
 echo.
+
+echo AggregationDriver
+echo ---------------------------------------------------
+java -cp output AggregationDriver
+echo ---------------------------------------------------
+echo.
