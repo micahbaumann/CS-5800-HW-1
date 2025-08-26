@@ -17,3 +17,9 @@ echo ---------------------------------------------------
 java -cp output InterfaceDriver
 echo ---------------------------------------------------
 echo.
+
+echo PolymorphisimDriver
+echo ---------------------------------------------------
+java -cp output PolymorphisimDriver
+echo ---------------------------------------------------
+echo.
