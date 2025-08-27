@@ -29,3 +29,9 @@ echo ---------------------------------------------------
 java -cp output AggregationDriver
 echo ---------------------------------------------------
 echo.
+
+echo CompositionDriver
+echo ---------------------------------------------------
+java -cp output CompositionDriver
+echo ---------------------------------------------------
+echo.
