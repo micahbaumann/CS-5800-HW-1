@@ -1,7 +1,7 @@
 package com.example.hw1.polymorphisim;
 
 public class PolymorphisimDriver {
-    public static void main(String[] args) {
+    public static void run(){
         Ship[] ships = new Ship[3];
 
         ships[0] = new Ship("Flyer", "1980");
@@ -11,5 +11,9 @@ public class PolymorphisimDriver {
         for (Ship ship : ships) {
             ship.print();
         }
+    }
+
+    public static void main(String[] args) {
+        run();
     }
 }

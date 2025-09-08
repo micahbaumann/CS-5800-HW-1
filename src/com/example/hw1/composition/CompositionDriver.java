@@ -3,7 +3,7 @@ package com.example.hw1.composition;
 import java.util.ArrayList;
 
 public class CompositionDriver {
-    public static void main(String[] args) {
+    public static void run(){
         Folder php_demo1 = new Folder("php_demo1", new ArrayList<File>(), new ArrayList<Folder>());
         Folder source_files = new Folder("Source Files", new ArrayList<File>(), new ArrayList<Folder>());
         Folder app = new Folder("app", new ArrayList<File>(), new ArrayList<Folder>());
@@ -39,5 +39,9 @@ public class CompositionDriver {
         source_files.deleteFolder("public");
         System.out.println();
         php_demo1.print();
+    }
+
+    public static void main(String[] args) {
+        run();
     }
 }
